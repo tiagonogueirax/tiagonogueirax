@@ -11,6 +11,7 @@ Dump de Base na pasta do projeto.
 
 # Configurações
 Editar arquivo de banco no diretório include/model/DataBase.class.php
+
 Editar arquivo config.php na raiz do projeto.
 
 # Observações
