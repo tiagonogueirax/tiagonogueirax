@@ -1,0 +1,157 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.welcome {
+  margin-top: 6em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.menu-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu-btn {
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 0 10px 15px 10px;
+  text-align: center;
+  display: inline-block;
+  flex-basis: 200px;
+  flex-grow: 1;
+  margin: 10px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(254,254,254,1) 58%, rgba(235,235,235,1) 100%);
+}
+
+.menu-btn .icon {
+  font-size: 85px;
+}
+
+.menu-btn .text {
+  font-weight: bold;
+}
+
+.menu-main a {
+  text-decoration: none;
+  color: black;
+}
+
+td {
+  line-height: 40px;
+}
+
+.pag-livro-detalhe img {
+  width: 330px;
+}
+
+.btn-pesquisa {
+  margin-left: 5px;
+}
+
+/* Geral */
+.text-center {
+  text-align: center !important;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.text-strong {
+  font-weight: bold !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+  
+}
+
+.hide {
+  display: none !important;
+}
+
+.pag-space-bottom {
+  margin-bottom: 200px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Media Queries  */
+@media only screen and (max-width: 640px) {
+
+  table td.m, table th.m {
+    display: none;
+  }
+
+  .pag-livro-detalhe img {
+    width: 250px;
+  }
+
+  .btn-pesquisa {
+    margin-left: inherit;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .cad-livro {
+    width: 100%;
+  }
+
+  .txt-pesquisa {
+    width: 100%;
+  }
+
+  .pag-estoque form button, .pag-estoque form input {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
